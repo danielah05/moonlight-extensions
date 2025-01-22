@@ -1,0 +1,23 @@
+{
+  "$schema": "https://moonlight-mod.github.io/manifest.schema.json",
+  "id": "notificationVolume",
+  "version": "1.0.0",
+  "apiLevel": 2,
+  "meta": {
+    "name": "Notification Volume",
+    "tagline": "Separate UI/Notification sound volume to avoid ear bleeding",
+    "authors": ["danielah05"],
+    "source": "https://github.com/danielah05/moonlight-extensions",
+    "donate": "https://ko-fi.com/danielah05"
+  },
+  "settings": {
+    "volume": {
+      "displayName": "Volume",
+      "type": "number",
+      "default": 100,
+      "min": 0,
+      "max": 200,
+      "advice": "none"
+    }
+  }
+}
