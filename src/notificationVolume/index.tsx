@@ -33,7 +33,7 @@ import { ExtensionWebExports } from "@moonlight-mod/types";
 
 export const patches: ExtensionWebExports["patches"] = [
   {
-    find: "_ensureAudio(){",
+    find: "ensureAudio(){",
     replace: {
       match: /\i\.\i\.getOutputVolume\(\)/,
       replacement: 'moonlight.getConfigOption("notificationVolume","volume")'
