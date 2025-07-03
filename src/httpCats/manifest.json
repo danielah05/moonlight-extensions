@@ -1,0 +1,15 @@
+{
+  "$schema": "https://moonlight-mod.github.io/manifest.schema.json",
+  "id": "httpCats",
+  "version": "1.0.0",
+  "apiLevel": 2,
+  "meta": {
+    "name": "HTTP Cats",
+    "tagline": "Post a cat image from https://http.cat/ using /httpcats depending on the status code",
+    "authors": ["danielah05"],
+    "source": "https://github.com/danielah05/moonlight-extensions",
+    "donate": "https://ko-fi.com/danielah05",
+    "tags": ["chat", "commands", "fun"]
+  },
+  "dependencies": ["commands"]
+}
